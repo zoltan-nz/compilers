@@ -22,3 +22,8 @@
 
 * [While Language Specification](while/while-language-specification.pdf)
 * [Compiler Source Code](while/compiler)
+
+## Downloads
+
+* [while.tar](downloads/while.tar)
+* [tests.tar](downloads/tests.tar)

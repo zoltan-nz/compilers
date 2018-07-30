@@ -1,0 +1,11 @@
+type tac1tup is {int f1, int f2}
+
+tac1tup f() {
+    return {f1:1,f2:3};
+}
+
+void main() {
+    tac1tup x = f();  
+    x.f1 = x.f2 - 2;
+    print x;
+}

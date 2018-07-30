@@ -1,0 +1,13 @@
+string f(int|null x) {
+    if(x is null) {
+        return "GOT NULL";
+    } else {
+        return "GOT INT";
+    }
+}
+
+void main() {
+    null x = null;
+    print f(x);
+    print f(1);
+}

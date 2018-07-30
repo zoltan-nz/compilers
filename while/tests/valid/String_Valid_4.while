@@ -1,0 +1,21 @@
+int|null indexOf(char c1, string str) {
+    for(int j=0;j!=|str|;j=j+1) {
+        if(c1 == str[j]) {
+            return j;
+        }
+    }
+    return null;
+}
+
+void main() {
+    print indexOf('H',"Hello World");
+    print indexOf('e',"Hello World");
+    print indexOf('l',"Hello World");
+    print indexOf('o',"Hello World");
+    print indexOf(' ',"Hello World");
+    print indexOf('W',"Hello World");
+    print indexOf('r',"Hello World");
+    print indexOf('d',"Hello World");
+    print indexOf('z',"Hello World");
+    print indexOf('1',"Hello World");
+}

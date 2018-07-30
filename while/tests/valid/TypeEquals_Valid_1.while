@@ -1,0 +1,18 @@
+type bop is {int x, int y}
+type expr is int|bop
+
+string f(expr e) {
+    if(e is int) {
+        return "GOT INT";
+    } else {
+        return "GOT BOB";
+    }
+}
+
+void main() {
+    expr e = 1;
+    print f(e);
+    e = {x:1,y:2};
+    print f(e);
+}
+ 

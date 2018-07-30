@@ -1,0 +1,8 @@
+int f() {
+     int r = 0;
+     int i;
+     for(int i=0;i!=10;++i) {
+     	     r = r + 1;
+     }
+     return r;
+}

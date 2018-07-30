@@ -1,0 +1,8 @@
+real suber(real x, real y, real z) {
+    return x - y - z;
+}
+
+void main() {
+    print suber(1.2,3.4,4.5);
+    print suber(1000.0,300.0,400.0);
+}

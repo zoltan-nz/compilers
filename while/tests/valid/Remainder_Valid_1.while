@@ -1,0 +1,22 @@
+int f(int x, int y) {
+    return x % y;
+}
+
+void main() {
+    print f(10,5);
+    print f(10,4);
+    print f(1,4);
+    print f(103,2);
+    print f(-10,5);
+    print f(-10,4);
+    print f(-1,4);
+    print f(-103,2);
+    print f(-10,-5);
+    print f(-10,-4);
+    print f(-1,-4);
+    print f(-103,-2);
+    print f(10,-5);
+    print f(10,-4);
+    print f(1,-4);
+    print f(103,-2);
+}

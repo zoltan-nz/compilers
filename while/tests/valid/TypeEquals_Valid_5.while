@@ -1,0 +1,20 @@
+type pos is int
+type neg is int
+type expr is pos|neg|[int]
+
+string f(expr e) {
+    if(e is pos && ((int)e) > 0) {
+        int n = (int) e;
+        n = n + 1;
+        return "POSITIVE: " ++ n;
+    } else {
+        return "NEGATIVE: " ++ e;
+    }
+}
+
+void main() {
+    print f(-1);
+    print f(1);
+    print f(1234);
+}
+ 

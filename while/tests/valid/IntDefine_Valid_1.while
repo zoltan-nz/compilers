@@ -1,0 +1,15 @@
+type ir1nat is int
+
+string f(ir1nat x) {
+    if(x > 2) {
+        int y = x;
+        return "" ++ y;
+    }
+    return "";
+}
+
+void main() {
+    print f(1);
+    print f(2);
+    print f(3);
+}

@@ -1,0 +1,15 @@
+type imsg is int|{string msg}
+
+string getMessage(imsg m) {
+    if(m is {string msg}) {
+        {string msg} n = ({string msg}) m;
+        return n.msg;
+    } else {
+        return "" ++ m;
+    }
+}
+
+void main() {
+    print getMessage({msg:"HELLO WORLD"});
+    print getMessage(1);
+}

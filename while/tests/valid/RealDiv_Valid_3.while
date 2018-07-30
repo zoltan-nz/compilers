@@ -1,0 +1,7 @@
+real g(real x) {
+     return x / 3.0;
+}
+
+void main() {
+     print g(0.234);
+}

@@ -1,0 +1,27 @@
+int f(int x, int y) {
+    bool a = x == y;
+
+    if(a) {
+        return 1;
+    } else {
+        return x + y;
+    }
+}
+
+int g(int x, int y) {
+    bool a = x >= y;
+    if(!a) {
+        return x + y;
+    } else {
+        return 1;
+    }
+}
+
+
+void main() {
+    print f(1,1);
+    print f(0,0);
+    print f(4,345);
+    print g(1,1);
+    print g(0,0);
+}

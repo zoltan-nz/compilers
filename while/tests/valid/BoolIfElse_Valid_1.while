@@ -1,0 +1,12 @@
+string f(bool b){
+    if(b) {
+        return "TRUE";
+    } else {
+        return "FALSE";
+    }
+}
+
+void main() {
+    print f(true);
+    print f(false);
+}

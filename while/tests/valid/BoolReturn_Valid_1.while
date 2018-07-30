@@ -1,0 +1,7 @@
+bool pred() {
+    return false;
+}
+
+void main() {
+   print pred();
+}

@@ -1,0 +1,8 @@
+void main() {
+	real x = 1.20;
+	real y = 2.40;
+	print (x+y);
+	print (y-x);
+	print (x/y);
+	print (x*y);
+}

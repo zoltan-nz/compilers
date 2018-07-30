@@ -1,0 +1,17 @@
+string rep(char old, char n, string str) {
+    int i = 0;
+    while(i < |str|) {
+        if(str[i] == old) {
+            str[i] = n;
+        }
+        i = i + 1;
+    }
+    return str;
+}
+
+
+void main() {
+    print rep('e','w',"Hello");
+    print rep('H','z',"Hello");
+    print rep('o','1',"Hello");
+}

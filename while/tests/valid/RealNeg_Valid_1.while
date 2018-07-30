@@ -1,0 +1,9 @@
+real f(real x) {
+    return -x;
+}
+
+void main() {
+    print f(1.2);
+    print f(0.00001);
+    print f(5632.0);
+}

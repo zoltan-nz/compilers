@@ -1,0 +1,21 @@
+int f(int x) {
+    int y;
+    switch(x) {
+        case 1:
+            y = -1;
+            break;
+        case 2:
+            y = -2;
+            break;
+        default:
+            y = 0;
+    }
+    return y;
+}
+
+void main() {
+    print f(1);
+    print f(2);
+    print f(3);
+    print f(-1);
+}

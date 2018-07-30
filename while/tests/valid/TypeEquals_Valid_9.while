@@ -1,0 +1,18 @@
+type bop is {int x, int y}
+type expr is int|bop
+
+int f(expr e) {
+    if(e is bop) {
+        bop b = (bop) e;
+        return b.x + b.y;
+    } else {
+        return (int) e; // type difference
+    }
+}
+
+void main() {
+    int x = f(1);
+    print x;
+    x = f({x:4,y:10});   
+    print x;
+}

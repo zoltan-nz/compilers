@@ -1,0 +1,18 @@
+type error is {string err}
+type expr is {int op, error lhs} | error
+
+int f(expr e) {
+    if(e is {string err}) {
+    	{string err} m = ({string err}) e;
+        return |m.err|;
+    } else {
+        return -1;
+    }
+}
+    
+void main() {
+    int x = f({err:"Hello World"});
+    print x;
+    x = f({op:1,lhs:{err:"Gotcha"}});
+    print x;
+}

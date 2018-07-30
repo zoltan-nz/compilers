@@ -1,0 +1,8 @@
+void main() {
+    [bool] ls = [true,false,true];
+    print ls;
+    bool x = ls[0];
+    print x;
+    ls[0] = false;
+    print ls;
+}

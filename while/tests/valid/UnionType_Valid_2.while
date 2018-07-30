@@ -1,0 +1,13 @@
+type IntReal is int|real
+
+string f(IntReal y) {
+    return "" ++ y;
+}
+
+void main() {
+    int x = 123;
+    print(f(x));
+    real y = 1.234;
+    print(f(y));
+}
+

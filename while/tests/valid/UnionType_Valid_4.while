@@ -1,0 +1,12 @@
+type ur4nat is int
+type tur4nat is int
+type wur4nat is ur4nat|tur4nat
+
+wur4nat f(wur4nat x) {
+    return x;
+}
+
+void main() {
+    print f(1);
+}
+

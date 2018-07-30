@@ -1,0 +1,5 @@
+const PI is 3.1415
+
+void main() {
+  print PI;
+}

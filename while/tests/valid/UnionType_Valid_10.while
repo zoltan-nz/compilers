@@ -1,0 +1,15 @@
+type Record_1 is { int|null field } 
+type Record_2 is { int field } | { null field }
+
+Record_1 f(Record_2 r) {
+    return r;
+}
+
+Record_2 g(Record_1 r) {
+    return r;
+}
+
+void main() {
+    print f(g({field: 1}));
+    print f(g({field: null}));
+}

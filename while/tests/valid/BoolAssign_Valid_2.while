@@ -1,0 +1,11 @@
+void main() {
+    bool x = true;
+    bool y = false;
+    print x;
+    print y;
+    print "AND";
+    x = x && y;
+    print x;
+    print "NOT";
+    print !x;
+}

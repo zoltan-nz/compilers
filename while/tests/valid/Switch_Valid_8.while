@@ -1,0 +1,20 @@
+const Red is 1
+const Blue is 2
+const Green is 3
+
+int f(int c) {
+    switch(c) {
+        case Red:
+            return 123;
+        case Blue:
+            return 234;
+        default:
+            return 456;
+    }
+}
+
+void main() {
+    print "NUM: " ++ f(Red);
+    print "NUM: " ++ f(Green);
+    print "NUM: " ++ f(Blue);
+}

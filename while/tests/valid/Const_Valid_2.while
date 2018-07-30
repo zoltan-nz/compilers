@@ -1,0 +1,6 @@
+const PI is 3.1415
+const TWO_PI is 2.0 * PI
+
+void main() {
+  print TWO_PI;
+}

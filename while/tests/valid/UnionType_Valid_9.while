@@ -1,0 +1,10 @@
+type IntList is {int|[int] op}
+
+void main() {
+    IntList x = {op:1};
+    x.op = 1;
+    IntList y = x;
+    print y;
+    x = {op:[1,2,3]};
+    print x;
+}

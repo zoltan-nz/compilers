@@ -1,0 +1,19 @@
+string f([int] xs, [int] ys) {
+    if(xs == ys) {
+        return "EQUAL";
+    } else {
+        return "NOT EQUAL";
+    }
+}
+
+void g([int] xs, [int] ys) {
+    print xs;
+    print ys;
+    print f(xs,ys);
+}
+
+void main() {
+    g([1,4],[1,4]);
+    g([1,4],[1,42]);
+    g([],[]);
+}

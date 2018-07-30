@@ -1,0 +1,18 @@
+type msgType1 is {int op, [int] payload}
+type msgType2 is {int op, int header, [int] rest}
+type msgType is msgType1 | msgType2
+
+int f(msgType msg) {
+    if(msg is msgType1) {
+        msgType1 msg1 = (msgType1) msg;
+        return msg1.op;
+    } else {
+        msgType2 msg2 = (msgType2) msg;
+        return msg2.op;
+    }
+}
+
+void main() {
+     print f({op:1,payload:[1,2,3]});
+}
+

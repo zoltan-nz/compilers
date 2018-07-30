@@ -1,0 +1,9 @@
+void main() {
+    [int] left = [1,2];
+    [int] right = [3,4];
+    [int] r = left ++ right;
+    left = left ++ [6];
+    print left;
+    print right;
+    print r;
+}

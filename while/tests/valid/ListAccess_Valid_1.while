@@ -1,0 +1,11 @@
+int f([int] x) {
+    int y = x[0];
+    int z = x[0];
+    return z+y;
+}
+
+void main() {
+    [int] arr = [1,2,3];
+    print f(arr);
+    print arr;
+}

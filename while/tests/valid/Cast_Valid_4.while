@@ -1,0 +1,12 @@
+type R1 is { real x, int y }
+type R2 is { int x, real y }
+type R3 is { int x, int y }
+
+R1|R2 f(R3 i) {
+    return ({real x, int y}) i;
+}
+
+void main() {
+  print f({x:123542, y:123});
+}
+    

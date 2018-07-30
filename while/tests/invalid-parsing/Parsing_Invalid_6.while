@@ -1,0 +1,5 @@
+int f(int y) {
+    int x = y;
+    int x = x;
+    return x;
+}

@@ -1,0 +1,9 @@
+
+int f([int] x) {
+     return |x|;
+}
+
+void main() {
+     [[int]] arr = [[1,2,3]];
+     print f(arr[0]);
+}

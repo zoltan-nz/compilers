@@ -1,0 +1,16 @@
+type tenup is int
+type msg1 is {tenup op, [int] data}
+type msg2 is {int index}
+
+type msgType is msg1 | msg2
+
+msgType f(msgType m) {
+    return m;
+}
+
+void main() {
+    msg1 m1 = {op:11,data:[]};
+    msg2 m2 = {index:1};
+    print(f(m1));
+    print(f(m2));
+}

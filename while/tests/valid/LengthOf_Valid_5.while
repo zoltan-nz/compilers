@@ -1,0 +1,18 @@
+type liststr is [int]|string
+
+int len(liststr l) {
+    if(l is string) {
+        string s = (string) l;
+        return |s|;
+    } else {
+        [int] ls = ([int]) l;
+        return |ls|;
+    }
+}
+
+void main() {
+    [int] l = [1,2];
+    print len(l);
+    string s = "Hello World";
+    print len(s);
+}

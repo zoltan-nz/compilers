@@ -1,0 +1,32 @@
+void main() {
+	// Type equality.
+	print 1 is int;
+	print [1] is [int];
+
+	// Basic subtype rules: empty list and union types.
+	print [] is [int];
+	print [] is [bool];
+	print 1 is int|string;
+	print 1 is char|real|int;
+
+	// List subtype.
+	print [[]] is [[int]];
+	print [1] is [int|bool|null];
+	print [1, null] is [real|null|int];
+
+	// Record subtype.
+	print {x: []} is {[null] x};
+	print {x: 1} is {int|null x};
+
+	// Union/list types.
+	print [1, [null]] is [int|[char|null]];
+	print [1, []] is [int|[bool]];
+	print [1, [2.0, []]] is [int|[real|[string]]];
+	print [[1], [2.0]] is [[int|real]];
+	print [[1], []] is [[int]];
+
+	// Union/record types.
+	print {x: [1, null]} is {[int|null] x};
+	print [{x: 1}, {x: null}] is [{int|null x}];
+	print [{x: 1, y: null},{x: 1, y: true}, {x: 2.0, y: null}, {x: 2.0, y: true}] is [{int|real x, null|bool y}];
+}

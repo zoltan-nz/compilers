@@ -1,0 +1,13 @@
+const LIST is [1,2,3]
+
+int sum([int] list) {
+  int r = 0;
+  for(int i=0;i!=|list|;i=i+1) {
+    r = r + list[i];
+  }
+  return r;
+}
+
+void main() {
+  print sum(LIST);
+}

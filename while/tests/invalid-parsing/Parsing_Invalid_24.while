@@ -1,0 +1,8 @@
+int f(int x) {
+    if(x >= 0) {
+      int y = x + 1;
+    } else {
+      int y = 0;
+    }
+    return y;
+}

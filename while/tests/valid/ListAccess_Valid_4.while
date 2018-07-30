@@ -1,0 +1,12 @@
+[char] f(string str) {
+    [char] r = [];
+    for(int i=0;i!=|str|;i=i+1) {
+        r = r ++ [str[i]];
+    }
+    return r;
+}
+
+void main() {
+    [char] r = f("Hello");
+    print r;
+}

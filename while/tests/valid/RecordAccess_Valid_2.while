@@ -1,0 +1,17 @@
+type IntPoint is {int x, int y}
+type RealPoint is {real x, real y}
+
+int sum1(IntPoint vp) {
+    return vp.x + vp.y;
+}
+
+real sum2(RealPoint vp) {
+    return vp.x + vp.y;
+}
+
+void main() {
+    IntPoint ip = {x:1, y:2};
+    print sum1(ip);
+    RealPoint rp = {x:1.23, y:2.34};
+    print sum2(rp);
+}

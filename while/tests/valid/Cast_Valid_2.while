@@ -1,0 +1,8 @@
+[real] f([int] xs) {
+    return ([real]) xs;
+}
+
+void main() {
+    print f([1,2,3]);
+}
+    

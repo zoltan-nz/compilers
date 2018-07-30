@@ -1,0 +1,12 @@
+void main() {
+    int|[int] x;
+
+    if(1 != 1) {
+        x = 1;
+    } else {
+        x = [1,2,3];
+    }
+
+    print x;
+}
+

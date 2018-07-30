@@ -1,0 +1,8 @@
+real diver(real x, real y, real z) {
+    return x / y / z;
+}
+
+void main() {
+    print diver(1.2,3.4,4.5);
+    print diver(1000.0,300.0,400.0);
+}

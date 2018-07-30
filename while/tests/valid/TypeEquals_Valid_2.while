@@ -1,0 +1,17 @@
+type expr is [int]|int
+
+string f(expr e) {
+    if(e is [int]) {
+        return "GOT [INT]";
+    } else {
+        return "GOT INT";
+    }
+}
+
+void main() {
+    expr e = 1;
+    print f(e);
+    e = [1,2,3,4];
+    print f(e);
+}
+ 

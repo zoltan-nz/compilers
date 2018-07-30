@@ -1,0 +1,12 @@
+type bytes is { int b1, int b2 }
+
+bytes f(int a) {
+    bytes bs = {b1:a,b2:a+1};
+    return bs;
+}
+
+void main() {
+    print f(1);
+    print f(2);
+    print f(9);
+}

@@ -1,0 +1,7 @@
+real f(real x) {
+    return (0.0 - x);
+}
+
+void main() {
+   print f(1.234);
+}

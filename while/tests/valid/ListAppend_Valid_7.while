@@ -1,0 +1,12 @@
+[char] append(string input) {
+    [char] rs = [];
+    for(int i=0;i<|input|;i=i+1) {
+        rs = rs ++ [input[i]];
+    }
+    return rs;
+}
+
+void main() {
+    [char] xs = append("abcdefghijklmnopqrstuvwxyz");
+    print xs;
+}

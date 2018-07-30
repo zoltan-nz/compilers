@@ -1,0 +1,16 @@
+int f([int] x) {
+    switch(x) {
+        case []:
+            return 0;
+        case [1]:
+            return -1;
+    }
+    return 10;
+}
+
+void main() {
+    print f([]);
+    print f([1]);
+    print f([3]);
+    print f([1,2,3]);
+}

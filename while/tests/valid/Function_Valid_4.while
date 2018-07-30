@@ -1,0 +1,14 @@
+type fr4nat is int
+
+fr4nat g(fr4nat x) {
+    return x + 1;
+}
+
+int f(fr4nat x) {
+    return x;
+}
+
+void main() {
+    int y = 1;
+    print f(g(y));
+}

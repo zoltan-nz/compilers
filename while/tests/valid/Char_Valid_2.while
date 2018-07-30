@@ -1,0 +1,11 @@
+char iof(string s, int i) {
+    return s[i];
+}
+
+void main() {
+    print iof("Hello",0);
+    print iof("Hello",1);
+    print iof("Hello",2);
+    print iof("Hello",3);
+    print iof("Hello",4);
+}

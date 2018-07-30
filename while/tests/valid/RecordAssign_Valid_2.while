@@ -1,0 +1,14 @@
+type tac2ta is {int f1, int f2}
+type tac2tb is {int f1, int f2}
+
+tac2tb f(tac2ta x) {
+    return {f1: x.f1-1, f2: x.f2};
+}
+
+void main() {
+    {int f1,int f2} x = {f1:2,f2:3};
+    print x;
+    x.f1 = 1;
+    {int f1,int f2} y = f(x);
+    print y;
+}

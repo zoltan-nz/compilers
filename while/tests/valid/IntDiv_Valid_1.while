@@ -1,0 +1,8 @@
+int f(int x, int y) {
+    return x / y;
+}
+
+void main() {
+     int x = f(10,2);
+     print x;
+}

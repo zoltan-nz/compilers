@@ -1,8 +1,8 @@
-type expr is [int]|int
+type expr is int[]|int
 
 string f(expr e) {
-    if(e is [int]) {
-        return "GOT [INT]";
+    if(e is int[]) {
+        return "GOT INT[]";
     } else {
         return "GOT INT";
     }

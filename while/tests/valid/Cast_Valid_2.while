@@ -1,5 +1,5 @@
-[real] f([int] xs) {
-    return ([real]) xs;
+real[] f(int[] xs) {
+    return (real[]) xs;
 }
 
 void main() {

@@ -1,4 +1,4 @@
-string f([int] xs, [int] ys) {
+string f(int[] xs, int[] ys) {
     if(xs == ys) {
         return "EQUAL";
     } else {
@@ -6,7 +6,7 @@ string f([int] xs, [int] ys) {
     }
 }
 
-void g([int] xs, [int] ys) {
+void g(int[] xs, int[] ys) {
     print xs;
     print ys;
     print f(xs,ys);

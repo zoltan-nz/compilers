@@ -1,5 +1,5 @@
-[char] f(string str) {
-    [char] r = [];
+char[] f(string str) {
+    char[] r = [];
     for(int i=0;i!=|str|;i=i+1) {
         r = r ++ [str[i]];
     }
@@ -7,6 +7,6 @@
 }
 
 void main() {
-    [char] r = f("Hello");
+    char[] r = f("Hello");
     print r;
 }

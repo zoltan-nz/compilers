@@ -1,4 +1,4 @@
-type plistv6 is [int]
+type plistv6 is int[]
 
 int f(plistv6 xs) {
     return |xs|;

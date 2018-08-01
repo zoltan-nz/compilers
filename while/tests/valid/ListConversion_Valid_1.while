@@ -1,4 +1,4 @@
-string f([real] ls) {
+string f(real[] ls) {
     return "" ++ ls;
 }
 

@@ -1,6 +1,6 @@
 type pos is real
 type neg is int
-type expr is pos|neg|[int]
+type expr is pos|neg|int[]
 
 string f(expr e) {
     if(e is real && ((real)e) > 0.0) {

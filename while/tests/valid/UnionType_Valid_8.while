@@ -1,5 +1,5 @@
-type msg1 is {int op, [int] data}
-type msg2 is {int op, [{int dum}] data}
+type msg1 is {int op, int[] data}
+type msg2 is {int op, {int dum}[] data}
 
 type msgType is msg1 | msg2
 
@@ -10,7 +10,7 @@ msgType f(msgType m) {
 void main() {
     msg1 x = {op:1,data:[1,2,3]};
     print f(x);
-    [int] list = x.data;
+    int[] list = x.data;
     print list;
 }
     

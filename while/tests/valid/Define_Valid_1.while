@@ -1,5 +1,5 @@
 type point is {int x,int y}
-type listint is [int]
+type listint is int[]
 
 void main() {
      listint li = [1,2,3];     

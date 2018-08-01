@@ -1,10 +1,10 @@
-string f([int] a) {
+string f(int[] a) {
      a[0] = 5;
      return "" ++ a;
 }
 
 void main() {
-     [int] b = [1,2,3];
+     int[] b = [1,2,3];
      print b;
      print f(b);
      print b;

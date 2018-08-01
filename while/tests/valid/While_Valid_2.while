@@ -1,4 +1,4 @@
-int sum([int] ls) {
+int sum(int[] ls) {
     int i = 0;
     int sum = 0;
     while(i < |ls|) {

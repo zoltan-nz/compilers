@@ -1,4 +1,4 @@
-int f([int] x) {
+int f(int[] x) {
     switch(x) {
         case []:
             return 0;

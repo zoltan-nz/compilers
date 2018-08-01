@@ -1,5 +1,5 @@
-type msgType1 is {int op, [int] payload}
-type msgType2 is {int op, int header, [int] rest}
+ftype msgType1 is {int op, int[] payload}
+type msgType2 is {int op, int header, int[] rest}
 type msgType is msgType1 | msgType2
 
 int f(msgType msg) {

@@ -1,4 +1,4 @@
-type IntList is {int|[int] op}
+type IntList is {int|int[] op}
 
 void main() {
     IntList x = {op:1};

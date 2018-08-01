@@ -1,6 +1,6 @@
 void main() {
-    [int] arr1 = [1,2,3];
-    [int] arr2 = arr1;
+    int[] arr1 = [1,2,3];
+    int[] arr2 = arr1;
     arr2[2] = 2;
     print arr1;
     print arr2;

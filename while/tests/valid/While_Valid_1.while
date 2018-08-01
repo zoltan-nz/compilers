@@ -1,6 +1,6 @@
-[int] reverse([int] ls) {
+int[] reverse(int[] ls) {
     int i = |ls|;
-    [int] r = [];
+    int[] r = [];
 
     while(i > 0) {
         i = i - 1;

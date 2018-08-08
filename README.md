@@ -7,6 +7,8 @@
 3. [Parsing 1](presentations/03-parsing-1.pdf)
 4. [Parsing 2](presentations/04-parsing-2.pdf)
 5. [Parsing 3](presentations/05-parsing-3.pdf)
+6. [Typing](presentations/06-typing-1.pdf)
+7. [Interpreter](presentations/07-interpreter.pdf)
 
 ## Parsing
 
@@ -28,6 +30,7 @@
 
 * [while.tar](downloads/while.tar)
 * [tests.tar](downloads/tests.tar)
+* [newtests.tar](downloads/newtests.tar)
 
 ## Notes
 
@@ -57,3 +60,8 @@ if                                              IF
 ("--"[a-z]*"\n")|(" "|"\n"|"\t")+               no token, just white space (ex. comment starts: --)
 .                                               error
 ```
+
+### Grammar
+
+* [Context-free grammar](https://en.wikipedia.org/wiki/Context-free_grammar)
+* [BNF - Backus-Naur form](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form)

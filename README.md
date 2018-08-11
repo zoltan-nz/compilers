@@ -25,12 +25,18 @@
 
 * [While Language Specification](while/while-language-specification.pdf)
 * [Compiler Source Code](while/compiler)
+* [My While Language Compiler repository](https://github.com/zoltan-nz/while-lang-compiler)
 
 ## Downloads
 
 * [while.tar](downloads/while.tar)
 * [tests.tar](downloads/tests.tar)
 * [newtests.tar](downloads/newtests.tar)
+
+## Assignments
+
+* [Assignment 1](assignments/assignment-1.pdf)
+* [Assignment 1 - Implementation](https://github.com/zoltan-nz/while-lang-compiler/blob/master/docs/assignment-1-notes.md)
 
 ## Notes
 

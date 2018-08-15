@@ -7,8 +7,10 @@
 3. [Parsing 1](presentations/03-parsing-1.pdf)
 4. [Parsing 2](presentations/04-parsing-2.pdf)
 5. [Parsing 3](presentations/05-parsing-3.pdf)
-6. [Typing](presentations/06-typing-1.pdf)
+6. [Typing 1.](presentations/06-typing-1.pdf)
 7. [Interpreter](presentations/07-interpreter.pdf)
+8. [Typing 2.](presentations/08-typing-2.pdf)
+9. [Typing 3.](presentations/09-typing-3.pdf)
 
 ## Parsing
 

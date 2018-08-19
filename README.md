@@ -11,6 +11,7 @@
 7. [Interpreter](presentations/07-interpreter.pdf)
 8. [Typing 2.](presentations/08-typing-2.pdf)
 9. [Typing 3.](presentations/09-typing-3.pdf)
+10. [Unreachable Code](presentations/10-unreachable-code.pdf)
 
 ## Parsing
 
@@ -39,6 +40,7 @@
 
 * [Assignment 1](assignments/assignment-1.pdf)
 * [Assignment 1 - Implementation](https://github.com/zoltan-nz/while-lang-compiler/blob/master/docs/assignment-1-notes.md)
+* [Assignment 2](assignments/assignment-2.pdf)
 
 ## Notes
 

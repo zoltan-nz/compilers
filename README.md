@@ -35,6 +35,7 @@
 * [while.tar](downloads/while.tar)
 * [tests.tar](downloads/tests.tar)
 * [newtests.tar](downloads/newtests.tar)
+* [assignment2.tgz](downloads/assignment2.tgz)
 
 ## Assignments
 

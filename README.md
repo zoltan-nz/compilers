@@ -13,6 +13,7 @@
 9. [Typing 3.](presentations/09-typing-3.pdf)
 10. [Unreachable Code](presentations/10-unreachable-code.pdf)
 11. [Definite Assignment/Unassignment](presentations/11-definite-assignment.pdf)
+12. [Definite Assignment 2.](presentations/12-definite-assignment.pdf) | [Java Bytecode](presentations/12b-java-bytecode.pdf)
 
 ## Parsing
 
@@ -37,6 +38,7 @@
 * [tests.tar](downloads/tests.tar)
 * [newtests.tar](downloads/newtests.tar)
 * [assignment2.tgz](downloads/assignment2.tgz)
+* [whilelang.tar](downloads/whilelang.tar) (updated While compiler for Assignment 2)
 
 ## Assignments
 

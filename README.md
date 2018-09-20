@@ -14,6 +14,7 @@
 10. [Unreachable Code](presentations/10-unreachable-code.pdf)
 11. [Definite Assignment/Unassignment](presentations/11-definite-assignment.pdf)
 12. [Definite Assignment 2.](presentations/12-definite-assignment.pdf) | [Java Bytecode](presentations/12b-java-bytecode.pdf)
+13. [Java Bytecode Generation 1](presentations/13-bytecode-generation-1.pdf)
 
 ## Parsing
 
@@ -24,27 +25,27 @@
 
 ## Whiley
 
-* [Whiley Compiler](https://github.com/Whiley/WhileyCompiler)
+- [Whiley Compiler](https://github.com/Whiley/WhileyCompiler)
 
 ## While
 
-* [While Language Specification](while/while-language-specification.pdf)
-* [Compiler Source Code](while/compiler)
-* [My While Language Compiler repository](https://github.com/zoltan-nz/while-lang-compiler)
+- [While Language Specification](while/while-language-specification.pdf)
+- [Compiler Source Code](while/compiler)
+- [My While Language Compiler repository](https://github.com/zoltan-nz/while-lang-compiler)
 
 ## Downloads
 
-* [while.tar](downloads/while.tar)
-* [tests.tar](downloads/tests.tar)
-* [newtests.tar](downloads/newtests.tar)
-* [assignment2.tgz](downloads/assignment2.tgz)
-* [whilelang.tar](downloads/whilelang.tar) (updated While compiler for Assignment 2)
+- [while.tar](downloads/while.tar)
+- [tests.tar](downloads/tests.tar)
+- [newtests.tar](downloads/newtests.tar)
+- [assignment2.tgz](downloads/assignment2.tgz)
+- [whilelang.tar](downloads/whilelang.tar) (updated While compiler for Assignment 2)
 
 ## Assignments
 
-* [Assignment 1](assignments/assignment-1.pdf)
-* [Assignment 1 - Implementation](https://github.com/zoltan-nz/while-lang-compiler/blob/master/docs/assignment-1-notes.md)
-* [Assignment 2](assignments/assignment-2.pdf)
+- [Assignment 1](assignments/assignment-1.pdf)
+- [Assignment 1 - Implementation](https://github.com/zoltan-nz/while-lang-compiler/blob/master/docs/assignment-1-notes.md)
+- [Assignment 2](assignments/assignment-2.pdf)
 
 ## Notes
 
@@ -53,7 +54,7 @@
 ```
 a             An ordinary character stands for itself.
 ε             The empty string.
-M|N           Alternation, choosing from M or N. 
+M|N           Alternation, choosing from M or N.
 M·N           Concatenation, an M followed by an N.
 MN            Another way to write concatenation.
 M∗            Repetition (zero or more times).
@@ -69,13 +70,13 @@ Regular expressions for some tokens:
 ```
 if                                              IF
 [a-z][a-z0-9]*                                  ID
-[0-9]+                                          NUM 
-([0-9]+"."[0-9]*)|([0-9]*"."[0-9]+)             REAL      
+[0-9]+                                          NUM
+([0-9]+"."[0-9]*)|([0-9]*"."[0-9]+)             REAL
 ("--"[a-z]*"\n")|(" "|"\n"|"\t")+               no token, just white space (ex. comment starts: --)
 .                                               error
 ```
 
 ### Grammar
 
-* [Context-free grammar](https://en.wikipedia.org/wiki/Context-free_grammar)
-* [BNF - Backus-Naur form](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form)
+- [Context-free grammar](https://en.wikipedia.org/wiki/Context-free_grammar)
+- [BNF - Backus-Naur form](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form)

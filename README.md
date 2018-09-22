@@ -16,6 +16,7 @@
 12. [Definite Assignment 2.](presentations/12-definite-assignment.pdf) | [Java Bytecode](presentations/12b-java-bytecode.pdf)
 13. [Java Bytecode Generation 1](presentations/13-bytecode-generation-1.pdf)
 14. [Java Bytecode Generation 2](presentations/14-bytecode-generation-2.pdf)
+15. [Java Bytecode Verification](presentations/15-bytecode-verification.pdf)
 
 ## Parsing
 

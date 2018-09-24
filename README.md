@@ -48,6 +48,8 @@
 - [Assignment 1](assignments/assignment-1.pdf)
 - [Assignment 1 - Implementation](https://github.com/zoltan-nz/while-lang-compiler/blob/master/docs/assignment-1-notes.md)
 - [Assignment 2](assignments/assignment-2.pdf)
+- [Assignment 2 - Implementation](https://github.com/zoltan-nz/while-lang-compiler/blob/master/docs/assignment-2-notes.md)
+- [Assignment 3](assignments/assignment-3.pdf)
 
 ## Notes
 

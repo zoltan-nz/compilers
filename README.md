@@ -42,6 +42,7 @@
 - [newtests.tar](downloads/newtests.tar)
 - [assignment2.tgz](downloads/assignment2.tgz)
 - [whilelang.tar](downloads/whilelang.tar) (updated While compiler for Assignment 2)
+- [jasm-v0.1.7](downloads/jasm-v0.1.7.jar)
 
 ## Assignments
 

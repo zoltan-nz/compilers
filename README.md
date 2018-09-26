@@ -17,6 +17,9 @@
 13. [Java Bytecode Generation 1](presentations/13-bytecode-generation-1.pdf)
 14. [Java Bytecode Generation 2](presentations/14-bytecode-generation-2.pdf)
 15. [Java Bytecode Verification](presentations/15-bytecode-verification.pdf)
+16. [Machine Code 1](presentations/16-machine-generation-1.pdf)
+17. [Machine Code 2](presentations/17-machine-generation-2.pdf)
+18. [Machine Code 3](presentations/18-machine-generation-3.pdf)
 
 ## Parsing
 

@@ -28,6 +28,12 @@
 3. [Building a Parse Tree](parsing-presentations/22-parsing-3-of-4.pdf)
 4. [Using Patterns](parsing-presentations/23-parsing-4-of-4.pdf)
 
+## Papers
+
+1. [Optimization of Object-Oriented Programs Using Static Class Hierarchy Analysis](papers/optimization-of-object-oriented-programs.pdf)
+2. [Practical Virtual Method Call Resolution for Java](papers/practical-virtual-method-call-resolution-for-java.pdf)
+3. [Myths and Realities: The Performance Impact of Garbage Collection](papers/the-performance-impact-of-garbage-collection.pdf)
+
 ## Whiley
 
 - [Whiley Compiler](https://github.com/Whiley/WhileyCompiler)

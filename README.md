@@ -20,6 +20,8 @@
 16. [Machine Code 1](presentations/16-machine-generation-1.pdf)
 17. [Machine Code 2](presentations/17-machine-generation-2.pdf)
 18. [Machine Code 3](presentations/18-machine-generation-3.pdf)
+19a. [Paper 1: Class Hierarchy Analysis](presentations/19-paper-1-class-hierarchy-analysis.pdf)
+19b. [Presentation about Class Hierarchy Analysis](presentations/19b-class-hierarchy-analysis.pdf)
 
 ## Parsing
 
@@ -52,6 +54,7 @@
 - [assignment2.tgz](downloads/assignment2.tgz)
 - [whilelang.tar](downloads/whilelang.tar) (updated While compiler for Assignment 2)
 - [jasm-v0.1.7](downloads/jasm-v0.1.7.jar)
+- [assignment-3-test-harness.tgz](downloads/assignment-3-test-harness.tgz)
 
 ## Assignments
 
@@ -60,7 +63,7 @@
 - [Assignment 2](assignments/assignment-2.pdf)
 - [Assignment 2 - Implementation](https://github.com/zoltan-nz/while-lang-compiler/blob/master/docs/assignment-2-notes.md)
 - [Assignment 3](assignments/assignment-3.pdf)
-
+- [Assignment 3 - Implementation](https://github.com/zoltan-nz/while-lang-compiler/blob/master/docs/assignment-3-notes.md)
 
 ## JASM
 

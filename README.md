@@ -20,8 +20,7 @@
 16. [Machine Code 1](presentations/16-machine-generation-1.pdf)
 17. [Machine Code 2](presentations/17-machine-generation-2.pdf)
 18. [Machine Code 3](presentations/18-machine-generation-3.pdf)
-19a. [Paper 1: Class Hierarchy Analysis](presentations/19-paper-1-class-hierarchy-analysis.pdf)
-19b. [Presentation about Class Hierarchy Analysis](presentations/19b-class-hierarchy-analysis.pdf)
+19. [Paper 1: Class Hierarchy Analysis](presentations/19-paper-1-class-hierarchy-analysis.pdf)
 
 ## Parsing
 

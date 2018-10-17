@@ -21,6 +21,7 @@
 17. [Machine Code 2](presentations/17-machine-generation-2.pdf)
 18. [Machine Code 3](presentations/18-machine-generation-3.pdf)
 19. [Paper 1: Class Hierarchy Analysis](presentations/19-paper-1-class-hierarchy-analysis.pdf)
+20. [Paper 2: Garbage Collection](presentations/20-garbage-collection.pdf)
 
 ## Parsing
 
@@ -63,10 +64,15 @@
 - [Assignment 2 - Implementation](https://github.com/zoltan-nz/while-lang-compiler/blob/master/docs/assignment-2-notes.md)
 - [Assignment 3](assignments/assignment-3.pdf)
 - [Assignment 3 - Implementation](https://github.com/zoltan-nz/while-lang-compiler/blob/master/docs/assignment-3-notes.md)
+- [Assignment 4](assignments/assignment-4.pdf)
 
 ## JASM
 
 - [Whiley JASM](https://whiley.github.io/Jasm/)
+
+## jx86
+
+- [Java Library for Generating x86 Code](https://github.com/DavePearce/jx86)
 
 ## Notes
 

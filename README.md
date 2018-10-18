@@ -76,6 +76,8 @@
 
 ## Notes
 
+- [Export fat JAR files from IntelliJ IDEA](export-jar-file-from-intellij-idea.md)
+
 ### Regular Expression Notations
 
 ```

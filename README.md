@@ -1,5 +1,7 @@
 # SWEN-430 Compilers
 
+> Connected repository with assignments and solutions: https://github.com/zoltan-nz/while-lang-compiler
+
 ## Presentations
 
 1. [Introduction](presentations/01-introduction.pdf)
@@ -48,13 +50,14 @@
 
 ## Downloads
 
-- [while.tar](downloads/while.tar)
-- [tests.tar](downloads/tests.tar)
-- [newtests.tar](downloads/newtests.tar)
-- [assignment2.tgz](downloads/assignment2.tgz)
-- [whilelang.tar](downloads/whilelang.tar) (updated While compiler for Assignment 2)
-- [jasm-v0.1.7](downloads/jasm-v0.1.7.jar)
-- [assignment-3-test-harness.tgz](downloads/assignment-3-test-harness.tgz)
+- [while.tar](downloads/while.tar) - While compiler for Assignment 1
+- [tests.tar](downloads/tests.tar) - Test harness for Assignment 1
+- [newtests.tar](downloads/newtests.tar) - Test update for Assignment 1
+- [assignment2.tgz](downloads/assignment2.tgz) - Tests for Assignment 2
+- [whilelang.tar](downloads/whilelang.tar) - Updated While compiler for Assignment 2, 3 and 4
+- [jasm-v0.1.7](downloads/jasm-v0.1.7.jar) - Old `jasm` compiler
+- [assignment-3-test-harness.tgz](downloads/assignment-3-test-harness.tgz) - Test harness for Assignment 3
+- [assignment4.tgz](downloads/assignment4.tgz) - C compiler and test harness for Assignment 4
 
 ## Assignments
 
